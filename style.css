@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'Myriad Pro';
+    src: url('assets/fonts/MyriadPro-Semibold.woff2') format('woff2'),
+        url('assets/fonts/MyriadPro-Semibold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+/* Background */
+
+html, body {
+	background: rgba(101, 112, 191, 255);
+	background-attachment: fixed;
+	background-size: cover;
+
+	font-family: Myriad Pro;
+}
+
+/* Icon Row*/
+
+.row {
+	background: rgba(0, 0, 0, 0);
+
+	position:absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	display: flex;
+	justify-content: center;
+
+	height: 48px;
+	width: 175px;
+}
+
+/* Icons */
+
+.column {
+	background: rgba(0, 0, 0, 0);
+
+	width: 48px;
+	height: 48px;
+
+	opacity: 25%;
+	transition: opacity .4s ease-in-out;
+}
+
+.column:hover {
+    opacity: 100%;
+}
+
+/* 404 Page */
+
+.page-return {
+	background: rgba(0, 0, 0, 0);
+
+	position:absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	display: flex;
+
+	width: 48px;
+	height: 48px;
+
+	opacity: 25%;
+	transition: opacity .4s ease-in-out;
+}
+
+.page-return:hover{
+	opacity: 100%;
+}
+
+/* Links */
+
+a {
+   outline: 0;
+}
